@@ -12,6 +12,10 @@ const Text = (props) => {
         font-weight: ${props.fw ? props.fw : "500"};
         font-family: ${props.roboto ? "Roboto" : "Poppins"};
 
+        &:hover{
+            color: ${props.hoverColor ? props.hoverColor : null};
+        }
+
         @media only screen and (max-width: 1200px) {
             font-size:${props.xmsize ? props.xmsize : "12px"};
           }

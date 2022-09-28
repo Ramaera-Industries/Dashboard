@@ -7,6 +7,7 @@ const Line = (props) => {
     height: ${props.height ? props.height : "1px"} ;
     width: ${props.width ? props.width : "100%"};
     background: ${props.bg ? props.bg : "#E5E5E5"};
+    margin: ${props.margin ? props.margin : '0'};
 `
 
   return (

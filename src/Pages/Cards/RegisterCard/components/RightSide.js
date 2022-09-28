@@ -31,16 +31,16 @@ const RightSide = () => {
         />
         <Margin />
         <Text 
-          color="#8692A6" size="18px" lh="28px" fw="Regular"
+          color="#8692A6" size="18px" lh="28px" fw="Regular" ls="0.05em"
           Text="For the purpose of industry regulation, your details are required."
         />
       </Container>
       <div>
-        <Input  />
-        <Input  />
-        <Input  />
-        <Input  />
-        <Input  />
+        <Input placeholder="First name" />
+        <Input placeholder="Last name" />
+        <Input placeholder="Email" />
+        <Input placeholder="referral-ID" />
+        <Input placeholder="Password" />
       </div>
       <Margin style={{height:'2rem'}} />
       <Button Text="Sign Up" />
