@@ -9,10 +9,10 @@ import Profile from './Pages/Profile/Profile';
 function App() {
   return (
     <>
-      {/* <HomePage />
+      <HomePage />
       <EmailCard />
       <Otp />
-      <Verification /> */}
+      <Verification />
       {/* <SideBar /> */}
       <Profile />
     </>

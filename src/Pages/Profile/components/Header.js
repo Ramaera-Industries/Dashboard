@@ -6,7 +6,7 @@ import Line from '../../../components/Line/Line'
 const Header = () => {
 
   const StyledHeader = styled.div`
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
   `
